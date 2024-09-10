@@ -1,0 +1,264 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.con{
+    width: 90%;
+}
+p{
+    text-align: center;
+    color: #3b506c;
+    font-size: 20px;
+}
+.continar{
+    width: 90%;
+    margin: auto;
+}
+.nav-main-continar{
+  
+   display: flex;
+   justify-content: space-around;
+   padding: 5px 0px;
+   align-items: center;
+   width: 90%;
+}
+
+.nav-main-continar {}
+.nav-main-continar image{}
+nav{}
+nav ul{
+    margin: 0;
+    padding: 0;
+    
+}
+nav ul li{
+    display: inline;
+    padding: 0px 0px 0px 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #3b506c;
+    font-weight: 600;
+    font-size: 18px;
+   
+}
+
+
+.banner-content {
+    color: black;
+    text-align: center;
+    padding: 150px 0;
+    background-image: url(../images/1_bP0fuW45Rd0EsOdVJZAd3Q.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.411);
+    background-blend-mode: multiply;
+
+    
+
+}
+
+.banner-content h3 {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.banner-content span {
+    width: 150px;
+    height: 5px;
+    background: #22d7fb;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.banner-content h1 {
+    font-size: 63px;
+    font-weight: 600;
+    margin: 35px;
+
+}
+.nav-main-continar img{
+    width: 100px;
+}
+
+
+.banner-content a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background-color: #752844;
+    padding: 12px;
+    border-radius: 50px;
+}
+.banner-content a:hover{
+    transition: all 0.5s ease;
+    background-color: rgba(241, 241, 228, 0.726);
+    box-shadow: rgba(137, 137, 148, 0.363) 0px 7px 29px 0px;
+}
+#subscribeButton {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Inline display */
+    font-size: 25px; /* Text size */
+    margin: 4px 2px; /* Margins */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 8px; /* Rounded corners */
+}
+#subscribeButton:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+.sub{
+    display: block;
+    text-align: center;
+    margin: 100px 0 100px 0 ;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.product{}
+.product h2{
+    text-align: center;
+    font-size: 40px;
+}
+.flex-com{
+    display: flex;
+    margin: 30px;
+   
+}
+.sam{
+    margin: 0 20px;
+}
+.sam img{
+    height: 350px;
+    object-fit: cover;
+  
+    border-radius: 7px;
+
+}
+.sam h4{
+    font-size: 25px;
+    text-align: center;
+    
+}
+.sam a{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background-color: #752844;
+    padding: 12px;
+   font-size: 17px;
+    margin: 20px 0 0 0;
+    display: block;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.event{}
+.event h2{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    margin: 50px 0 5px 0 ;
+}
+.event span{
+    width: 120px;
+    height: 5px;
+    background: #FB2259;
+    display:block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.future-felx{
+    display: flex;
+}
+.num{
+    padding: 20px;
+    text-align: center;
+}
+.num img{
+    height: 350px;
+    object-fit: cover;
+    box-shadow: 10px 10px 2px #8080807d;
+    border-radius: 7px;
+}
+.num h4{
+    font-size: 25px;
+    margin: 30px 0 0 0;
+}
+.num p{
+    font-size: 15px;
+    margin: 5px 0 7px 0 ;
+}
+.num a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #FB2259;
+    letter-spacing: 3px;
+    margin: 20px 0 0 0;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.about-1 h2{
+    text-align: center;
+    font-size: 50px;
+}
+.about-2{
+   display: flex;
+}
+footer{
+    background-color: rgba(97, 92, 92, 0.132);
+    padding: 50px 0 400px 0;
+    margin: 40px 0 0 0;
+}
+.main{
+    
+}
+.base{
+    width: 25%;
+    padding: 0 0 0 0 ;
+    float: left;
+}
+.base h3{
+    font-size: 25px;
+    text-align: left;
+    color: #3b506c;
+}
+.base ul{
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+.base ul a{
+    text-decoration: none;
+}
+.base ul li{
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #3b506c;
+}
